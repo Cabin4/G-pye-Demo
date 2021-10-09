@@ -8,7 +8,7 @@ function Classses() {
     return (
         <div style={{
             backgroundColor:'#F6F9FB',
-            height:'200vh',
+            height:'250vh',
             display:'inline-block',
             margin:'-6px',
             width:'100%',
@@ -74,6 +74,22 @@ function Classses() {
                      <img  src={Cutout} alt="" />
                      </Grid>
                 </Grid>   
+            </Container>
+
+
+
+
+            <Container>
+                    <Grid style={{width: '1200px',height: '500px',backgroundColor:'white'}}>
+                        <Grid 
+                        style={{width: '900px',
+                        height: '350px',
+                        backgroundColor:'#FFEEDC',
+                        }}>
+                            
+                        </Grid>
+                    </Grid>
+
             </Container>
         </div>
     )

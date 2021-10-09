@@ -7,6 +7,7 @@ import Coding from './components/Coding';
 import Superapp from './components/Superapp';
 import Innovative from './components/Innovative';
 import Classses from './components/Classses';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Superapp/>
       <Innovative/>
       <Classses/>
+      <Footer/>
     </div>
   );
 }
